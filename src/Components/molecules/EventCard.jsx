@@ -22,7 +22,7 @@ export const EventCard = ({ event, onDelete }) => {
             <p className="text-base mt-1">{event.description}</p>
           )}
 
-          <p className="text-base font-bold mt-1">{event.category}</p>
+          <p className="text-base font-semibold mt-1">{event.category}</p>
 
           {/* Date and Time */}
           <div className="flex items-center text-gray-600 text-sm mt-2">
