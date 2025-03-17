@@ -1,7 +1,6 @@
 import { CalendarDays, Clock, Trash } from "lucide-react";
 
 export const EventCard = ({ event, onDelete }) => {
-  console.log(event);
   return (
     <div className="bg-white rounded-xl shadow-lg overflow-hidden w-full max-w-sm">
       {/* Event Details */}
